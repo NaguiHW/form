@@ -1,0 +1,9 @@
+body {
+  background-image: url('bg-intro-desktop.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%) ;
+  margin: 0;
+}
