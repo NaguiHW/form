@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
   background-image: url('bg-intro-desktop.png');
   background-position: center;
@@ -6,4 +8,25 @@ body {
   height: 100vh;
   background-color: hsl(0, 100%, 74%) ;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.left-side {
+  width: 45%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side {
+  width: 45%;
 }
