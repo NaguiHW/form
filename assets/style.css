@@ -64,18 +64,31 @@ body {
   align-items: center;
   border-radius: 5px;
   padding: 15px 0;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.right-side input {
+.right-side form input {
   width: 80%;
   margin: 15px 0;
-  padding: 10px 20px;
+  padding: 14px 20px;
   font-size: 14px;
   border-radius: 3px;
   border: 1px solid #ccc;
   font-weight: 600;
 }
 
-.right-side input:focus {
+.right-side form input:focus {
   border: 1px solid hsl(249, 10%, 26%);
+}
+
+.right-side form button {
+  width: 88%;
+  margin: 15px 0;
+  padding: 14px 20px;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 hsl(154, 64%, 35%);
 }
