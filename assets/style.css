@@ -21,10 +21,10 @@ body {
 
 .left-side {
   width: 45%;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
 
 .left-side h1 {
@@ -41,4 +41,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.right-side > button {
+  width: 80%;
+  padding: 15px 0;
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 20px 0;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.right-side form {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
