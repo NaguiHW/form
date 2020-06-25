@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background-image: url('bg-intro-desktop.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%) ;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.left-side {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.left-side h1 {
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.left-side p {
+  font-size: 20px;
+}
+
+.right-side {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side > button {
+  width: 80%;
+  padding: 15px 0;
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 20px 0;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.right-side > button:active {
+  background-color: hsl(248, 40%, 31%);
+}
+
+.right-side form {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px 0;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.right-side form input {
+  width: 80%;
+  margin: 15px 0;
+  padding: 14px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-weight: 600;
+}
+
+.right-side form input:focus {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+
+.right-side form button {
+  width: 88%;
+  margin: 15px 0;
+  padding: 14px 20px;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 hsl(154, 64%, 35%);
+  cursor: pointer;
+}
+
+.right-side form button:active {
+  background-color: hsl(154, 62%, 41%);
+}
+
+.right-side form p {
+  font-size: 12px;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+  margin: 10px 0 25px;
+  padding: 0 25px;
+}
+
+.right-side form p a {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1080px) {
+  .right-side > button {
+    width: 100%;
+  }
+
+  .right-side form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    height: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side {
+    width: 80%;
+  }
+
+  .left-side h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 25px 0 10px;
+    text-align: center;
+  }
+
+  .left-side p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .right-side {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .right-side form input {
+    width: 75%;
+  }
+
+  .right-side form button {
+    width: 87%;
+  }
+}
